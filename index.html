@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div class="instagram-wrapper">                                 <!-- CONTAINER PAI, SEGURA AS DUAS COLUNAS (DO CELULAR E DO LOGIN) -->
+        <div class="instagram-phone">                               <!--COLUNA DA ESQUERDA QUE CONTÉM A IMAGEM DO CELULAR -->
+            <img src="./img/instagram-celular.png" alt="celular">
+        </div>
+
+        <div class="instagram-continue">                            <!-- COLUNA DA DIREITA QUE CONTÉM 3 CONTAINERS (grupos) -->
+           
+            <div class="group">                                     <!-- 1o GROUP QUE CONTÉM O LOGO DO INSTAGRAM -->
+                <img src="./img/instagram-logo.png" class="instagram-logo "alt="instagram logo">
+                <div class="profile-photo">
+                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                </div>
+                <a href="https://www.instagram.com/rafatorino/" target="_blank" class="instagram-login">Continue como rafatorino</a> <!-- SE COLOCAR A*2 CRIA DUAS TAGS DE HREF -->
+                <a href="#" class="instagram-logout">Remover conta</a>
+            </div>
+
+            <div class="group">                                     <!-- 2o GROUP QUE CONTÉM 2 BOTÕES DE OPÇOES CASO NÃO SEJA A CONTA DA PESSOA -->
+                <p class="not-account">Não é rafatorino?</p>        <!-- CLASSE QUE CONTÉM SOMENTE TEXTO -->
+                <p class="not-account">
+                    <span class="link-blue">Alternar contas</span>
+                    ou 
+                    <span class="link-blue">Inscreva-se</span>
+                </p>
+            </div>
+
+            <div class="get-the-app">                               <!-- 3o GRUPO QUE CONTEM FORMAS DE BAIXAR O APP -->
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="download">                              <!-- CRIA UMA DIV PARA QUE OS LINKS NAO FIQUEM NA VERTICAL E SIM LADO A LADO -->
+                    <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank" class="app-download"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank" class="app-download"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="" target="_blank">Sobre</a>
+            <a href="" target="_blank">Blog</a>
+            <a href="" target="_blank">Carreiras</a>
+            <a href="" target="_blank">Ajuda</a>
+            <a href="" target="_blank">API</a>
+            <a href="" target="_blank">Privacidade</a>
+            <a href="" target="_blank">Termos</a>
+            <a href="" target="_blank">Contas mais relevantes</a>
+            <a href="" target="_blank">Hashtags</a>
+            <a href="" target="_blank">Localizações</a>
+        </div>
+
+        <div class="footer-links">
+            <a href="" target="_blank">Beleza</a>
+            <a href="" target="_blank">Dança e apresentação</a>
+            <a href="" target="_blank">Fitness</a>
+            <a href="" target="_blank">Comida e bebida</a>
+            <a href="" target="_blank">Casa e jardim</a>
+            <a href="" target="_blank">Música</a>
+            <a href="" target="_blank">Artes visuais</a>
+        </div>
+
+        <div class="copyright">
+            <select name="language">
+                <option value="english">Inglês</option>
+                <option value="portuguese">Português</option>
+                <option value="spanish">Espanhol</option>
+                <option value="french">Francês</option>
+            </select>
+
+            <span>&#169; 2021 Instagram do Facebook</span>
+        </div>
+    </footer>
+</body>
+</html>
